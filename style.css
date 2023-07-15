@@ -59,7 +59,7 @@
     color: rgb(0, 0, 0); 
     padding: 0px 60px;
     position: absolute;
-    bottom: 950px;
+    bottom: 1050px;
     left: 20.5%;
     transform: translateX(-50%);
   }
@@ -69,7 +69,7 @@
     color: rgb(0, 0, 0);
     padding: 0px 60px; 
     position: absolute;
-    bottom: 950px;
+    bottom: 1050px;
     left: 49%;
     transform: translateX(-50%);
   }
@@ -79,7 +79,7 @@
     color: rgb(0, 0, 0);
     padding: 0px 64px;
     position: absolute;
-    bottom: 950px;
+    bottom: 1050px;
     left: 77.5%;
     transform: translateX(-50%);
   }
@@ -89,7 +89,7 @@
     color: rgb(0, 0, 0);
     padding: 0px 102px;
     position: absolute; 
-    bottom: 690px; 
+    bottom: 790px; 
     left: 20.5%;
     transform: translateX(-50%);
   }
@@ -99,7 +99,7 @@
     color: rgb(0, 0, 0);
     padding: 0px 27px; 
     position: absolute;
-    bottom: 690px; 
+    bottom: 790px; 
     left: 49%; 
     transform: translateX(-50%);
   }
@@ -109,7 +109,7 @@
     color: rgb(0, 0, 0);
     padding: 0px 80px;
     position: absolute;
-    bottom: 690px;
+    bottom: 790px;
     left: 77.5%;
     transform: translateX(-50%);
   }
@@ -259,5 +259,22 @@
 .img-mv3 .bot1 {
     width: 140px;;
   }
+
+.boton-footer {
+    margin: 10px;
+    
+}
+
+.boton-footer button {
+    width: 100px;
+    height: 50px;
+    background-color: #00000065;
+    border-radius: 48%;
+}
+
+.boton-footer button:hover {
+    background-color:#4CAF50;
+    color: white;
+}
 
 
