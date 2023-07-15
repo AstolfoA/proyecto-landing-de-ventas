@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+.carousel-item img {
+    height: 350px;
+}
+
+.productos h3 {
+    margin-left: 500px;
+}
+
+.titulo1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgba(75, 75, 75, 0.226);
+}
+
+.productos ul li {
+    display: flex;
+    align-items: center;
+    
+}
+
+.productos ul li img {
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
+    margin-left: 85px;
+    transition: 0.5s;
+}
+
+
+
+.productos ul li img:hover{
+    transform: scale(0.9);
+}
+
+.productos ul li a {
+    text-decoration: none;
+
+}
+
+.productos ul li a:hover {
+    color: brown;
+    text-align: center;
+    
+}
+
+  /* imagenes de los productos */
+
+.titulo__imagen1 {
+    background-color: rgba(255, 255, 255, 0.603);
+    color: rgb(0, 0, 0); 
+    padding: 0px 60px;
+    position: absolute;
+    bottom: 950px;
+    left: 20.5%;
+    transform: translateX(-50%);
+  }
+
+.titulo__imagen2 {
+    background-color: rgba(255, 255, 255, 0.603);
+    color: rgb(0, 0, 0);
+    padding: 0px 60px; 
+    position: absolute;
+    bottom: 950px;
+    left: 49%;
+    transform: translateX(-50%);
+  }
+
+.titulo__imagen3 {
+    background-color: rgba(255, 255, 255, 0.603);
+    color: rgb(0, 0, 0);
+    padding: 0px 64px;
+    position: absolute;
+    bottom: 950px;
+    left: 77.5%;
+    transform: translateX(-50%);
+  }
+
+.titulo__imagen4 {
+    background-color: rgba(255, 255, 255, 0.603);
+    color: rgb(0, 0, 0);
+    padding: 0px 102px;
+    position: absolute; 
+    bottom: 690px; 
+    left: 20.5%;
+    transform: translateX(-50%);
+  }
+
+.titulo__imagen5 {
+    background-color: rgba(255, 255, 255, 0.603);
+    color: rgb(0, 0, 0);
+    padding: 0px 27px; 
+    position: absolute;
+    bottom: 690px; 
+    left: 49%; 
+    transform: translateX(-50%);
+  }
+
+.titulo__imagen6 {
+    background-color: rgba(255, 255, 255, 0.603);
+    color: rgb(0, 0, 0);
+    padding: 0px 80px;
+    position: absolute;
+    bottom: 690px;
+    left: 77.5%;
+    transform: translateX(-50%);
+  }
+
+  /* seccion productos mas vendidos */
+
+.titulo2 {
+    text-align: center;
+    color: rgb(2, 1, 1);
+    background-color: rgba(75, 75, 75, 0.226);
+  }
+
+.productos-mas-vendidos {
+    background-color: rgba(255, 255, 255, 0.822);
+  }
+
+.productos-mas-vendidos ul li img {
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
+    margin-left: 85px;
+    transition: 0.5s;
+    box-sizing: border-box;
+  }
+
+.productos-mas-vendidos ul li {
+    display: inline-block;
+    
+  }
+
+.cont-pnv ul li p {
+    margin-left: 180px;
+    font-size: 20px;
+  }
+
+.cont-pnv ul li a {
+    margin-left: 180px;
+  }
+
+.cont-pnv .quantity-nav {
+    position: absolute;
+    height: 45px;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.container {
+    text-align: center;
+  }
+  
+.boton {
+    background-color: #4CAF50; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espacio alrededor del texto */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambiar el cursor al pasar por encima */
+  }
+
+.instagram h4 {
+    text-align: center;
+    background-color: rgba(75, 75, 75, 0.226);
+  }
+
+.instagram h4 a{
+    color: rgb(0, 0, 0);
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+  }
+
+.instagram h4 a:hover {
+    color: rgb(255, 91, 91);
+  }
+
+.logo__footer {
+    margin-left: 580px;
+    color: black;
+  }
+
+.logo__footer:hover {
+    color: brown;
+  }
+
+.img-mv1 {
+    overflow: hidden;
+    margin-bottom: 10px;
+    transition: 0.5s;
+  }
+
+  /*nooo .img-mv1:hover {
+    transform: scale(1.1)
+  } */
+
+.img-mv2 {
+    overflow: hidden;
+    margin-bottom: 10px;
+    transition: 0.5s;
+  }
+
+  /* noooo.img-mv2:hover {
+    transform: scale(1.1)
+  } */
+
+.img-mv3 {
+    overflow: hidden;
+    margin-bottom: 10px;
+    transition: 0.5s;
+  }
+
+  /* .img-mv3:hover {
+    transform: scale(1.1)
+  } */
+
+  /* footer */
+
+.footer {
+    display: block;
+    text-align: center;
+  }
+
+.pie {
+    text-align: center;
+  }
+
+.btn-group {
+    color: rgb(0, 0, 0);
+  }
+
+.boton-d {
+    margin-left: -70px;
+  }
+
+  /* boton selector de productos */
+
+.img-mv1 .bot1 {
+    width: 140px;;
+  }
+
+.img-mv2 .bot1 {
+    width: 140px;;
+  }
+
+.img-mv3 .bot1 {
+    width: 140px;;
+  }
+
+
