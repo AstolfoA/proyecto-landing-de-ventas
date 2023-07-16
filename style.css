@@ -8,7 +8,7 @@
 
 
 .carousel-item img {
-    height: 350px;
+    height: 500px;
 }
 
 .productos h3 {
@@ -29,10 +29,10 @@
 
 .productos ul li img {
     overflow: hidden;
-    width: 250px;
-    height: 250px;
+    width: 450px;
+    height: 450px;
     margin-bottom: 10px;
-    margin-left: 85px;
+    margin-left: 150px;
     transition: 0.5s;
 }
 
@@ -58,9 +58,9 @@
 .titulo__imagen1 {
     background-color: rgba(255, 255, 255, 0.603);
     color: rgb(0, 0, 0); 
-    padding: 0px 60px;
+    padding: 0px 300px;
     position: absolute;
-    bottom: 1050px;
+    bottom: 1330px;
     left: 20.5%;
     transform: translateX(-50%);
   }
@@ -68,29 +68,29 @@
 .titulo__imagen2 {
     background-color: rgba(255, 255, 255, 0.603);
     color: rgb(0, 0, 0);
-    padding: 0px 60px; 
+    padding: 0px 200px; 
     position: absolute;
-    bottom: 1050px;
-    left: 49%;
+    bottom: 1334px;
+    left: 52%;
     transform: translateX(-50%);
   }
 
 .titulo__imagen3 {
     background-color: rgba(255, 255, 255, 0.603);
     color: rgb(0, 0, 0);
-    padding: 0px 64px;
+    padding: 0px 300px;
     position: absolute;
-    bottom: 1050px;
-    left: 77.5%;
+    bottom: 1335px;
+    left:83%;
     transform: translateX(-50%);
   }
 
 .titulo__imagen4 {
     background-color: rgba(255, 255, 255, 0.603);
     color: rgb(0, 0, 0);
-    padding: 0px 102px;
+    padding: 0px 300px;
     position: absolute; 
-    bottom: 790px; 
+    bottom: 873px; 
     left: 20.5%;
     transform: translateX(-50%);
   }
@@ -98,20 +98,20 @@
 .titulo__imagen5 {
     background-color: rgba(255, 255, 255, 0.603);
     color: rgb(0, 0, 0);
-    padding: 0px 27px; 
+    padding: 0px 128px; 
     position: absolute;
-    bottom: 790px; 
-    left: 49%; 
+    bottom: 873px; 
+    left: 52%; 
     transform: translateX(-50%);
   }
 
 .titulo__imagen6 {
     background-color: rgba(255, 255, 255, 0.603);
     color: rgb(0, 0, 0);
-    padding: 0px 80px;
+    padding: 0px 170px;
     position: absolute;
-    bottom: 790px;
-    left: 77.5%;
+    bottom: 873px;
+    left: 82.6%;
     transform: translateX(-50%);
   }
 
@@ -129,10 +129,10 @@
 
 .productos-mas-vendidos ul li img {
     overflow: hidden;
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
     margin-bottom: 10px;
-    margin-left: 85px;
+    margin-left: 210px;
     transition: 0.5s;
     box-sizing: border-box;
   }
@@ -190,7 +190,7 @@
   }
 
 .logo__footer {
-    margin-left: 580px;
+    margin-left: 90px;
     color: black;
   }
 
@@ -221,6 +221,16 @@
 .footer {
     display: block;
     text-align: center;
+    font-size: 20px;
+  }
+
+  .foot-info label {
+    font-size: 30px;
+  }
+
+  .foot-info input{
+    width: 220px;
+    height: 40px;
   }
 
 .pie {
@@ -232,7 +242,7 @@
   }
 
 .boton-d {
-    margin-left: -70px;
+    margin-left: 100px;
   }
 
   /* boton selector de productos */
@@ -262,83 +272,11 @@
 }
 
 .boton-footer button:hover {
-    background-color:#4CAF50;
+    background-color:#316e33;
     color: white;
 }
 
 /* media queries */
-
-@media (max-width: 918px){
-    .productos ul li img {
-        overflow: hidden;
-        width: 150px;
-        height: 150px;
-        margin-bottom: 10px;
-        margin-left: 55px;
-        transition: 0.5s;
-    }
-
-    .titulo__imagen1 {
-        background-color: rgba(255, 255, 255, 0.603);
-        color: rgb(0, 0, 0); 
-        padding: 0px 20px;
-        position: absolute;
-        bottom: 1310px;
-        left: 18%;
-        transform: translateX(-50%);
-      }
-    
-    .titulo__imagen2 {
-        background-color: rgba(255, 255, 255, 0.603);
-        color: rgb(0, 0, 0);
-        padding: 0px 17px; 
-        position: absolute;
-        bottom: 1310px;
-        left: 40%;
-        transform: translateX(-50%);
-      }
-    
-    .titulo__imagen3 {
-        background-color: rgba(255, 255, 255, 0.603);
-        color: rgb(0, 0, 0);
-        padding: 0px 5px;
-        position: absolute;
-        bottom: 1310px;
-        left: 63%;
-        transform: translateX(-50%);
-      }
-    
-    .titulo__imagen4 {
-        background-color: rgba(255, 255, 255, 0.603);
-        color: rgb(0, 0, 0);
-        padding: 0px 60px;
-        position: absolute; 
-        bottom: 1150px; 
-        left: 18%;
-        transform: translateX(-50%);
-      }
-    
-    .titulo__imagen5 {
-        background-color: rgba(255, 255, 255, 0.603);
-        color: rgb(0, 0, 0);
-        padding: 3px 8px; 
-        position: absolute;
-        bottom: 1150px; 
-        left: 40%; 
-        transform: translateX(-50%);
-        font-size: 22px;
-      }
-    
-    .titulo__imagen6 {
-        background-color: rgba(255, 255, 255, 0.603);
-        color: rgb(0, 0, 0);
-        padding: 0px 28px;
-        position: absolute;
-        bottom: 1150px;
-        left: 63%;
-        transform: translateX(-50%);
-      }
-}
 
 @media (max-width: 800px){
     .carousel-item img {
@@ -706,6 +644,7 @@
         transform: translateX(-50%);
         font-size: 20px;
       }
+
 
       .foot-info input{
         width: 120px;
